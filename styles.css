@@ -3,6 +3,7 @@
   --color-aurometal: #6c7289;
   --color-cream: #F2EAE2;
   --color-aquamarine: #3D8168;
+  --color-aquamarine-dark: #1A4032;
   --color-gunmetal: #1C232B;
   --color-white: #FFFFFF;
 
@@ -156,7 +157,6 @@ body, html {
   }
 
   #card-wrap img {
-
     height: 100%;
     object-fit: cover; /* Ensure it covers the space proportionally */
     object-position: center 75%;
@@ -175,6 +175,11 @@ body, html {
     width: 0.87rem;
     height: 1rem;
     margin-right: 0.7rem;
+  }
+
+  #button:hover {
+    background-color: var(--color-aquamarine-dark);
+    cursor: pointer;
   }
 
 }
